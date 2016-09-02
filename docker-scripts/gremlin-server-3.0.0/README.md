@@ -21,7 +21,7 @@ Test interactively
 ```
 Launch container as daemon
 ==============================
-```sudo docker run -d -h $hostname $image_name:$image_version
+```sudo docker run -d -h $hostname -p 8182:8182 $image_name:$image_version
 ```
 Get ip address of container
 ===============================
